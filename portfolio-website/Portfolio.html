@@ -1,0 +1,160 @@
+<html> 
+  <head>
+    <title>Jordan Benbelaid's Portfolio</title> 
+  </head>
+  <style>
+
+    body{
+        text-align:justify;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: rgb(103, 154, 230);
+        color:white;
+        font-size: 1.2rem;
+    }    
+
+    .card {
+        background-color: rgba(47, 8, 190, 0.863);
+        box-shadow: 0 0.5vw 1.1vh 0 rgb(0, 0, 0);
+        transition: 0.3s;
+        padding: 1vh 1vw;
+        margin: 1vh 4vw 5vh 4vw;
+    }
+    .card:hover {
+        box-shadow: 0 1vw 2.2vh 0 rgb(255, 254, 254);
+    }
+
+    .items{
+        padding: 2vh;
+        margin: 0.5vh 2vw;
+    }
+
+    .pic{
+        float:left;
+        padding:0.5vh 3vw 0.5vh 0;
+        width: 13vw;
+        height: 20vh;
+    }
+
+    .text{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:white;
+        font-size: 1.2rem;
+    }
+
+    .title{
+        padding-top: 50px;
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    .title2{
+        margin-top: 1.5vw;
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .navbar{
+        list-style-type:none;
+        text-align: center;
+    }
+
+    .navbar-item{
+        display: inline-block;
+        padding: 1.5vw 1.5vw;
+        font-size: 1.5em;
+        color:white;
+        border-style: solid;
+        margin:1em 1em;
+    }
+
+    .navbar-item:hover{
+        background-color:rgba(47, 8, 190, 0.863);;
+    }
+
+    .images{
+    position:fixed;
+    }
+    .social{
+    height:3vh;
+    width:2vw;
+    margin:0.5vh 0.5vw;
+    padding:0.5vh 0.5vw;
+    }
+
+
+  </style>
+
+  <body> 
+    <h1 class="title">Jordan Benbelaid's Portfolio</h1> 
+
+<ul class="navbar">
+    <a href="About me.html"><li class="navbar-item">About Me</li></a>
+    <a href="Portfolio.html"><li class="navbar-item">Portfolio</li></a>
+    <a href="Career Path.html"><li class="navbar-item">Career Aspirations</li></a>
+</ul>
+
+<div class="container">
+    <div class="images">
+        <a href="https://www.instagram.com/jordanbenbelaid/?hl=en"><img class="social" src="images/insta.png"></a>
+        <br>
+        <a href="https://www.linkedin.com/in/jordan-benbelaid-8028619b/"><img class="social" src="images/linkedin.jpg"></a>
+        <br>
+        <a href="https://twitter.com/BenbelaidJordan"><img class="social" src="images/twitter.png"></a>
+        <br>
+    </div>
+</div>
+
+<h2 class = "title2">My Projects</h2>
+
+<div class="cardsize">
+    <div class="card">
+        <div class="items">
+            <img class="pic" src="images/labs.PNG">
+
+            <p class="text"> <span class="title2">C# Labs</span> <br>
+            I have completed numerous labs when I was learning C# in depth, completing over 60 labs in different aspects of C#. This was to help demonstrate and understand how different 
+            aspects of C# worked. I have covered some basic testing using NUnit tests, .NET Core &.NET Framework, WPF's, MVC's, API's and much more. In this folder there is many more smaller
+            and larger scale labs which helped me to grasp the 4 principles of OOP and how/when to use them properly. There is a lot of work in this folder with clear labellings on exactly 
+            what I have achieved, as well as being able to showcase it working. 
+            <a href="https://github.com/jordanbenbelaid/2020-01-C-Sharp-Labs"><span class="text">Click here to see this GitHub repository!</span></a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="cardsize">
+    <div class="card">
+        <div class="items">
+            <img class="pic" src="images/mvc.PNG">
+
+            <p class="text"><span class="title2">MVC</span><br>
+            I made my MVC on the NBA because I really enjoy watching basketball, so it was something I would enjoy making the MVC about. It consists of a database, linking to a website
+            so that if someone wanted to change a teams players, they could do so very easily. This website was written in C# with some SQL, where I modified the functions of creating, reading, 
+            updating or deleting a player. This was a fun project as i had complete free reign over it and it didnt have a spec to meet. I also did a similar project in the C# labs except it 
+            read off an API so that it didnt change the database directly. 
+            <a href="https://github.com/jordanbenbelaid/NBA-mvc-project"><span class="text">Click here to see this GitHub repository!</span></a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="cardsize">
+    <div class="card">
+        <div class="items">
+            <img class="pic" src="https://picsum.photos/200/300">
+
+            <p class="text"><span class="title2">University Game</span><br>
+            During my time at University I took a games module, where we created a game based off of an early, basic 2D shooter. In this project I had to choose my own theme, where I went for a
+            cartoon/anime theme. So this game is similar and based off of Space Invaders, where the player will constantly be shooting, while being able to move in all directions. Despite 
+            this, the player always travels to the right of the screen, so the shots all go to the right. With 3 lives, you must defeat the boss to win the game! This was an early projectand 
+            and looking back on it now, there are things I might have changed or shortcuts that would have helped me achieve my goal quicker.
+            <a href="https://github.com/jordanbenbelaid/2020-01-C-Sharp-Labs"><span class="text">Click here to see this GitHub repository!</span></a>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+  </body>
+</html>
